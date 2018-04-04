@@ -1,0 +1,28 @@
+{
+  "name": "artifact-store",
+  "version": "1.0.0",
+  "description": "A simple REST webservice that stores artifacts created during test runs",
+  "keywords": [
+    "artifact",
+    "test",
+    "store"
+  ],
+  "eslintConfig": {
+    "extends": "mourner"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js",
+    "start": "node index.js"
+  },
+  "author": "Gerben van Adrichem",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "4.16.0",
+    "eslint-config-mourner": "2.0.3",
+    "express": "4.16.2",
+    "multer": "1.3.0",
+    "multer-azure-storage": "0.1.3",
+    "yargs": "11.0.0"
+  }
+}
